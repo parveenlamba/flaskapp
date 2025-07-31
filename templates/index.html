@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Interview Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4285f4;
+            text-align: center;
+        }
+        .info-box {
+            background-color: #e8f0fe;
+            border: 1px solid #4285f4;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .endpoint-list {
+            background-color: #f8f9fa;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .endpoint {
+            margin: 10px 0;
+            font-family: monospace;
+            background-color: #e9ecef;
+            padding: 8px;
+            border-radius: 3px;
+        }
+        .success {
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Flask Interview Lab</h1>
+        
+        <div class="info-box">
+            <h3>Welcome to the GCP Cloud Engineer Interview Exercise!</h3>
+            <p>This Flask application is designed to test your containerization and deployment skills on Google Cloud Platform.</p>
+            <p class="success">✅ Application is running successfully!</p>
+        </div>
+
+        <div class="endpoint-list">
+            <h3>Available Endpoints:</h3>
+            <div class="endpoint">
+                <strong>GET /</strong> - This homepage
+            </div>
+            <div class="endpoint">
+                <strong>GET /health</strong> - Health check endpoint
+            </div>
+            <div class="endpoint">
+                <strong>GET /api/info</strong> - Application information
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>Exercise Phases:</h3>
+            <ol>
+                <li><strong>Phase 1:</strong> Containerize this Flask application</li>
+                <li><strong>Phase 2:</strong> Push the image to a public registry</li>
+                <li><strong>Phase 3:</strong> Provision a GKE cluster with Terraform</li>
+                <li><strong>Phase 4:</strong> Deploy the application to the cluster</li>
+            </ol>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <p><em>Good luck with your interview! 🎯</em></p>
+        </div>
+    </div>
+</body>
+</html>
